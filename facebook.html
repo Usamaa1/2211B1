@@ -6,108 +6,154 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
-    <style>
-        body{
-            font-family: 'Prosto One', cursive;
-        }
-    </style>
+<link rel="stylesheet" href="facebook.css">
+<!-- 
+<style>
+.navbar{
+    background-color: tomato;
+}
+
+</style> -->
+
+
+
 </head>
 <body>
     <!-- navbar start -->
-    <h1>Facebook</h1>
+    <div class="navbar" id="nav">
+        <h1 class="fb-hd">facebook</h1>
     
-    <form action="">
-        <label for="">Email or Phone</label>
-        <input type="text">
-        <label for="">Password</label>
-        <input type="password">
-        <a href="#">Forgot account?</a>
-        <button>Log In</button>
-    </form>
+        <form action="" class="login">
+            <div class="login-sec">
+                <label for="">Email or Phone</label>
+                <input type="text">
+            </div>
+          <div class="login-sec">
+            <label for="">Password</label>
+            <input type="password">
+            <a href="#" class="frgt">Forgot account?</a>
+          </div>
+          <div class="login-sec">
+          <button class="login-btn">Log In</button>
+          </div>
+        </form>
+        <!-- <div class="clear"></div> -->
+    </div>
+    
     <!-- navbar end -->
 
+<div class="main-section">
 
-    <!-- left side section start -->
-    
-    <h2>Connect with freinds and the world around you on Facebook.</h2>
-    <i class="fa-solid fa-photo-film"></i>
-    <p><b>See photos and updates </b> form freinds in New Feed.</p>
-    <i class="fa-solid fa-share-from-square"></i>
-    <p><b>Share what's new</b> in your life on your Timeline</p>
-    <i class="fa-solid fa-network-wired"></i>
-    <p><b>Find more</b> of what you're looking for with Facebook Search</p>
-    
-    <!-- left side section end -->
+    <div class="left-section">
+ <!-- left side section start -->
+ <h2 class="side-section-hd">Connect with freinds and the world around you on Facebook.</h2>
+        <div class="sub-section">
+            <i class="fa-solid fa-photo-film"></i>
+            <p class="sub-sec-txt"><b>See photos and updates </b> form freinds in New Feed.</p>
+        </div>
+        <div class="sub-section">
+            <i class="fa-solid fa-share-from-square"></i>
+            <p class="sub-sec-txt"><b>Share what's new</b> in your life on your Timeline</p>
+        </div>
+        <div class="sub-section">
+            <i class="fa-solid fa-network-wired"></i>
+            <p class="sub-sec-txt"><b>Find more</b> of what you're looking for with Facebook Search</p>
+        </div>
 
-    <!-- right side section start -->
 
-    <h1>Sign Up</h1>
-    <h2>It's free and always will be.</h2>
 
-<form action="">
-    <input type="text" name="" id="" placeholder="First name">
-    <input type="text" name="" id="" placeholder="Last name">
-    <input type="email" name="" id="" placeholder="Mobile number or email">
-    <input type="password" name="" id="" placeholder="New password">
-    <label for="">Birthday</label>
-    <!-- <input type="date" name="" id=""> -->
-    <input type="date">
-    <a href="#">Why do I need to provide my birthday?</a>
 
-    <input type="radio" name="gender" id="">
-    <label for="">Female</label>
-    <input type="radio" name="gender" id="">
-    <label for="">Male</label>
 
-    <p>By clicking Create Account you agree to our <a href="#">Terms</a> and that you have read our <a href="">Data Policy,</a> including our <a href="">Cookie Use.</a> You may recieve SMS Notifications from Facebook and can opt out at any time.</p>
-    <button>Create Account</button>
+<!-- left side section end -->
+    </div>
+       
+     
+          
+       
+       
+       <div class="right-section">
+   <!-- right side section start -->
+       
+   <h1 class="right-hd">Sign Up</h1>
+   <h2 class="right-sub-hd">It's free and always will be.</h2>
+ 
+ <form action="">
+   <input type="text" name="" id="" placeholder="First name" class="p_info first_name">
+   <input type="text" name="" id="" placeholder="Last name" class="p_info last_name">
+   <input type="email" name="" id="" placeholder="Mobile number or email" class="p_info mobile_name">
+   <input type="password" name="" id="" placeholder="New password" class="p_info password_name">
+   <label for="">Birthday</label>
+   <!-- <input type="date" name="" id=""> -->
+   <input type="date" class="p_info">
+   <a href="#" class="lnk-clr">Why do I need to provide my birthday?</a>
+ 
+   <input type="radio" name="gender" id="">
+   <label for="">Female</label>
+   <input type="radio" name="gender" id="">
+   <label for="">Male</label>
+ 
+   <p>By clicking Create Account you agree to our <a href="#" class="lnk-clr">Terms</a> and that you have read our <a href="" class="lnk-clr">Data Policy,</a> including our <a href="" class="lnk-clr">Cookie Use.</a> You may recieve SMS Notifications from Facebook and can opt out at any time.</p>
+   <button class="crt-acc">Create Account</button>
+ 
+   <hr>
+   <p><a href="" class="lnk-clr">Create a Page</a> for a celebrity, band or business.</p>
+ <!-- 
+   <select name="" id="">
+       <option value="">Jan</option>
+       <option value="">Feb</option>
+       <option value="">March</option>
+       <option value="">April</option>
+       <option value="">May</option>
+       <option value="">Jun</option>
+   </select>
+ 
+   <select name="" id="">
+       <option value="">1</option>
+       <option value="">2</option>
+       <option value="">3</option>
+       <option value="">4</option>
+       <option value="">5</option>
+       <option value="">6</option>
+   </select>
+ 
+   <select name="" id="">
+       <option value="">1990</option>
+       <option value="">1991</option>
+       <option value="">1992</option>
+       <option value="">1993</option>
+       <option value="">1994</option>
+       <option value="">1995</option>
+   </select> -->
+ 
+ </form>
+       </div>
+  
+      
+  
 
-    <hr>
-    <p><a href="">Create a Page</a> for a celebrity, band or business.</p>
-<!-- 
-    <select name="" id="">
-        <option value="">Jan</option>
-        <option value="">Feb</option>
-        <option value="">March</option>
-        <option value="">April</option>
-        <option value="">May</option>
-        <option value="">Jun</option>
-    </select>
+        
 
-    <select name="" id="">
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-        <option value="">4</option>
-        <option value="">5</option>
-        <option value="">6</option>
-    </select>
 
-    <select name="" id="">
-        <option value="">1990</option>
-        <option value="">1991</option>
-        <option value="">1992</option>
-        <option value="">1993</option>
-        <option value="">1994</option>
-        <option value="">1995</option>
-    </select> -->
 
-</form>
 
+  
+
+
+
+   
     <!-- right side section end -->
 
 
-    <div>Lorem ipsum</div>
+    <!-- <div>Lorem ipsum</div>
     <div> dolor sit </div>
     <div>  accusamus amet?</div>
 
     <hr>
     <span>Lorem ipsum</span>
     <span> dolor sit </span>
-    <span>  accusamus amet?</span>
+    <span>  accusamus amet?</span> -->
+
+
 
 
 

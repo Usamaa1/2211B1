@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+body{
+    margin: 0;
+}
+.navbar{
+    background: #3b5998;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ .fb-hd{
+    margin-left:30px;
+}
+.login{
+    margin-right: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.login-sec{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.frgt{
+    color: #acc5d6;
+}
+.login-btn{
+    background-color: #375594;
+    border: 1px solid #2e477e;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: #fff;
+}
+.main-section{
+    display: flex;
+}
+.left-section{
+    margin: 30px;
+}
+.right-section{
+    width: 50%;
+    margin: 20px 30px;
+
+}
+.sub-section{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.sub-sec-txt{
+    margin-left: 10px;
+    color: #63686b;
+
+}
+.sub-sec-txt b{
+    color: #000;
+}
+i{
+    font-size: 40px;
+    color: #9ba9b3d3;
+}
+.right-hd{
+    font-size: 38px;
+    margin-bottom: 0px;
+}
+.right-sub-hd{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.p_info{
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+}
+.mobile_name{
+    width: 300px;
+}
+.password_name{
+    width: 300px;
+
+}
+.crt-acc{
+    background-color: #1e9c68;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+}
+.lnk-clr{
+    color: #2e477e;
+}
