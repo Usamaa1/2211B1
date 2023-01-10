@@ -1,0 +1,44 @@
+:root{
+    --txt-clr: #000;
+}
+
+*{
+    font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica, "Segoe UI", SegoeUI, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.nav-head a{
+    color: var(--txt-clr);
+    font-size: 13px;
+    text-decoration: none;
+    opacity: .7;
+    border-right: 1px solid var(--txt-clr);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.nav-head{
+    margin: 10px 20px 10px 30px;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 350px 20px 38px;
+
+}
+
+.main-nav-text a {
+    color: var(--txt-clr);
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 20px;
+}
+.main-slider{
+    background-image: url(./images/sliderImage.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
