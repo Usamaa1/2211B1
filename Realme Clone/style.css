@@ -1,5 +1,9 @@
 :root{
     --txt-clr: #000;
+    --txt-clr-white: #fff;
+    --bg-clr: #f5f5f5;
+    --bg-tag-clr: #21B9D3;
+    --txt-clr-orange: #e6462e;
 }
 
 *{
@@ -8,7 +12,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+body{
+    background: var(--bg-clr);
+}
 
 .nav-head a{
     color: var(--txt-clr);
@@ -41,4 +47,109 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
+    color: var(--txt-clr-white);
+    display: flex;
+    align-items: center;
+}
+.slider-txt-container{
+    text-align: center;
+    width: 40%;
+    margin-left: 70px;
+}
+.slider-title{
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.slider-subtitle{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.slider-desc{
+    font-size: 15px;
+    line-height: 25px;
+    padding: 20px;
+}
+.slider-btn{
+    background-color: transparent;
+    border: 2px solid var(--txt-clr-white);
+    color: var(--txt-clr-white);
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.slider-btn:hover{
+    background-color: var(--txt-clr-white);
+    color: var(--txt-clr);
+}
+.smartphone-txt-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 80px;
+}
+.smartphone-subhd-container{
+    display: flex;
+}
+.smartphone-hd{
+    font-size: 24px;
+    font-weight: 700;
+}
+.smartphone-sub-hd{
+    font-size: 18px;
+    margin: 10px;
+}
+.bold{
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bold::after{
+    content: '';
+    width: 40px;
+    height: 2px;
+    display: block;
+    background-color: var(--txt-clr);
+    margin-top: 5px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 590px 590px;
+    gap: 30px;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 330px;
+    background-color: var(--txt-clr-white);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.card-tag{
+    background-color: var(--bg-tag-clr);
+    width: fit-content;
+    color: var(--txt-clr-white);
+    padding: 2px 6px;
+    border-radius: 50px;
+}
+.card-hd{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.card-desc{
+    opacity: .6;
+    margin-bottom: 95px;
+}
+.card-price{
+    color: var(--txt-clr-orange);
+    font-weight: 600;
+}
+.card img{
+    width: 220px;
+    height: 220px;
 }
