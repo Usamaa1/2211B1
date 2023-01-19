@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+
+    <style>
+        *{
+            margin: 0;
+        }
+
+
+    .itm-1{
+        /* background-color: #144f92; */
+        /* grid-row: 2 / 3;
+        grid-column: 3 / 4; */
+    }
+    /* .itm-2{
+        background: #9b59b6;
+    }
+    .itm-3{
+        background-color: #e74c3c;
+
+    } */
+    .itm-4{
+        /* grid-column: 1 / 4; */
+        /* background-color: #00b894; */
+    }
+    .itm-5{
+        /* grid-column: 1 / 2; */
+        /* background-color: #f39c12; */
+        /* grid-column: span 1;
+        grid-row: 1 / 2;
+        justify-self: center;
+        align-self: start; */
+        /* grid-column: span;
+        grid-row: 1 / 2; */
+    }
+    .itm-6{
+        /* background-color: #6c5ce7; */
+        /* grid-column: 1 / 2;
+        grid-row: 1 / 2; */
+        /* grid-column: 2 / 3;
+        grid-row: 2 / 3; */
+        /* grid-column: span 1; */
+
+    }
+    /* .itm-7{
+        background-color: #48dbfb;
+
+    }
+    .itm-8{
+        background-color: #feca57;
+    }
+    .itm-9{
+        background-color: #f368e0;
+    }
+    .itm-10{
+        background-color: #5f27cd;
+    } */
+    /* .itm-10{
+        background-color: #f1c40f;
+    } */
+
+    /* .container{
+       display: grid;
+        grid-template-rows: 40px 100vh 600px 600px;
+        background-color: #2c3e50;
+    }
+    .two-columns{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 500px 500px 500px;
+
+    } */
+    .container{
+        /* display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 300px 200px; */
+        /* width: 900px;
+        height: 700px; */
+        /* gap: 20px 40px;
+        column-gap: 10px;
+        row-gap: 30px; */
+        /* justify-content: space-around; */
+        /* align-content: center; */
+        /* align-items: center;
+        justify-items: end; */
+        /* background-color: #222f3e; */
+        /* display: grid; */
+        /* grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); */
+        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+        /* grid-template-columns: repeat(auto-fit, minmax(200px, 450px)); */
+        /* grid-template-rows: repeat(auto-fit, minmax(200px, 1fr)); */
+        /* justify-content: space-evenly;
+        align-content: center; */
+        /* height: 100vh;
+        gap: 30px; */
+        /* justify-items: center;
+        align-items: start; */
+    }
+
+
+
+
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="itm-1 items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolorem quam fuga sequi, necessitatibus repellendus repellat reprehenderit itaque sapiente cupiditate at totam nisi omnis qui ratione reiciendis soluta impedit ipsam?</div>
+        <div class="itm-2 items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolorem quam fuga sequi, necessitatibus repellendus repellat reprehenderit itaque sapiente cupiditate at totam nisi omnis qui ratione reiciendis soluta impedit ipsam?</div>
+        <div class="itm-3 items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolorem quam fuga sequi, necessitatibus repellendus repellat reprehenderit itaque sapiente cupiditate at totam nisi omnis qui ratione reiciendis soluta impedit ipsam?</div>
+        <div class="itm-4 items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolorem quam fuga sequi, necessitatibus repellendus repellat reprehenderit itaque sapiente cupiditate at totam nisi omnis qui ratione reiciendis soluta impedit ipsam?</div>
+        <div class="itm-5 items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolorem quam fuga sequi, necessitatibus repellendus repellat reprehenderit itaque sapiente cupiditate at totam nisi omnis qui ratione reiciendis soluta impedit ipsam?</div>
+        <div class="itm-6 items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolorem quam fuga sequi, necessitatibus repellendus repellat reprehenderit itaque sapiente cupiditate at totam nisi omnis qui ratione reiciendis soluta impedit ipsam?</div>
+    </div> -->
+
+
+    <div class="container-box">
+        <div class="box-1 box">1</div>
+        <div class="box-2 box">2</div>
+        <div class="box-3 box">3</div>
+        <div class="box-4 box">4</div>
+        <div class="box-5 box">5</div>
+        <div class="box-6 box">6</div>
+    </div>
+
+
+
+
+
+    <!-- <div class="container">
+        <div class="itm-1 items">
+            <div class="logo">
+                <i class="fa-brands fa-apple"></i>
+            </div>
+            <nav class="nav">
+                <a href="#">Store</a>
+                <a href="#">Mac</a>
+                <a href="#">iPad</a>
+                <a href="#">iPhone</a>
+                <a href="#">Watch</a>
+                <a href="#">AirPods</a>
+            </nav>
+
+        </div>
+        <div class="itm-2 items">
+            <h1>Iphone 14</h1>
+            <h3>Big and Bigger</h3>
+            <a href="#">Learn More</a>
+            <a href="#">Buy</a>
+        </div>
+        <div class="itm-3 items">Image 2</div>
+        <div class="itm-4 items">Image 3</div>
+
+        <div class="two-columns">
+
+            <div class="itm-5 items">Two column Image 1</div>
+        <div class="itm-6 items">Two column Image 2</div>
+        <div class="itm-7 items">Two column Image 3</div>
+        <div class="itm-8 items">Two column Image 4</div>
+        <div class="itm-9 items">Two column Image 5</div>
+        <div class="itm-10 items">Two column Image 6</div>
+
+        </div>
+        
+    </div> -->
+</body>
+</html>
