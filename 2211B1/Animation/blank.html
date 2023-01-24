@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animation</title>
+    <style>
+        /* .main-container{
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+    .loading{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        }
+ 
+    .loading::after{
+        content: " ";
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        box-shadow: 6px 6px #243f33;
+        animation: anim 1.8s linear infinite;
+    }
+
+    @keyframes anim {
+        from{
+            transform: rotate(0deg);
+
+        }to{
+            transform: rotate(360deg);
+        }
+        
+    } */
+
+
+                img{
+                    width: 200px;
+                    /* transform: translate(300px,300px); */
+        /* transform: scaleX(1.5); */
+        /* transform: skewY(50deg); */
+    }
+
+    .circle{
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        border: 3px dashed goldenrod;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 40px;
+        box-sizing: border-box;
+        animation-name: abc;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        /* animation-delay: 5s; */
+        /* animation-direction: alternate; */
+        animation-iteration-count: infinite;
+        /* animation-delay: 5s; */
+        animation-fill-mode: forwards;
+        /* animation-play-state: paused; */
+        /* animation-iteration-count: infinite; */
+        animation-fill-mode: forwards sz;
+    }
+
+    @keyframes abc {
+        /* from{
+            transform: translateY(0);
+        }to{
+            transform: translateY(900px);   
+        } */
+
+        0%{
+            transform: rotate(0);
+        }100%{
+            transform: rotate(360deg);
+        }
+
+
+
+
+    }
+
+
+
+
+    </style>
+</head>
+<body>
+
+  <div class="container">
+      <img src="apple.png" alt="">
+      <div class="circle">circle
+      </div>
+  </div>
+
+
+</body>
+</html>
